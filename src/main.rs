@@ -11,7 +11,7 @@ struct Args {
     /// Path of the directory to scan, default current directory
     #[arg(short, long)]
     directory: Option<String>,
-    /// File extension, default none
+    /// File extension
     #[arg(short, long)]
     file_extension: String,
 }
